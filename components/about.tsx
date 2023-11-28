@@ -1,9 +1,14 @@
+"use client";
+
 import React from 'react'
-import SectionHeading from './section-heading'
+import SectionHeading from './section-heading';
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40">
+    <motion.section className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40"
+                        initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.175 }}>
         <SectionHeading>About Me</SectionHeading>
         <p className="mb-3">
             Currently, I am an IT Support Technician II for Amazon and I'm looking to get into a{" "} 
@@ -21,6 +26,6 @@ export default function About() {
             enjoy <span className="underline">learning new things</span>. Curretnly, I am trying to re-learn Spanish with the 
             idea of learning French next. 
         </p>
-    </section>
-  )
+    </motion.section>
+  );
 }
