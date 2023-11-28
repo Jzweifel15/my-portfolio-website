@@ -34,12 +34,12 @@ export default function Intro() {
                 </motion.span>
             </div>
         </div>
-        <motion.p className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        <motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
                     initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
             <span className="font-bold">Hello, I'm Justin.</span> I'm an{" "}
             <span className="font-bold">aspiring software development engineer</span>. 
             I enjoy buliding <span className="italic"> full-stack sites & apps</span>. 
-        </motion.p>
+        </motion.h1>
 
         <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
                         initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0}} 
