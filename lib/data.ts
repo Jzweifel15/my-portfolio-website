@@ -35,12 +35,13 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated College",
-    location: "Columbus, OH",
+    title: "IT Support Technician II",
+    location: "Etna, OH",
     description:
-      "I graduated from Western Governors University with a bachelor's degree in Computer Science.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023",
+      "I have worked in IT for Amazon full-time as I was going through college and full-stack software engineer training. " +
+      "Now, with my degree and skills, I am looking for full-time software development engineer opportunities.",
+    icon: React.createElement(FaReact),
+    date: "2019 - present",
   },
   {
     title: "Full-stack Software Engineering Trainee",
@@ -51,14 +52,13 @@ export const experiencesData = [
     date: "2020 - 2021",
   },
   {
-    title: "IT Support Technician II",
-    location: "Etna, OH",
+    title: "Graduated College",
+    location: "Columbus, OH",
     description:
-      "I have worked in IT for Amazon full-time as I was going through college and full-stack software engineer training. " +
-      "Now, with my degree and skills, I am looking for full-time software development engineer opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2019 - present",
-  },
+      "I graduated from Western Governors University with a bachelor's degree in Computer Science.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
+  }
 ] as const;
 
 export const projectsData = [
