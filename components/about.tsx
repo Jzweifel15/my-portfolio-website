@@ -1,20 +1,19 @@
 "use client";
 
-import React from 'react'
-import SectionHeading from './section-heading';
+import React from "react";
+import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
-import { useSectionInView } from '@/lib/hooks';
+import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-
   const { ref } = useSectionInView("About");
 
   return (
-    <motion.section className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
-                        initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.175 }}
-                        id="about" ref={ ref }>
-        <SectionHeading>About Me</SectionHeading>
+    <motion.section ref={ref} className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+                    initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} 
+                    transition={{ delay: 0.175 }} id="about">
+
+      <SectionHeading>About me</SectionHeading>
         <p className="mb-3">
             Currently, I am an IT Support Technician II for Amazon and I'm looking to get into a{" "} 
             <span className="font-bold">software development/engineering position</span>. I have recently graduated with a{" "}
@@ -28,9 +27,9 @@ export default function About() {
         <p>
             <span className="italic">When I'm not coding or working</span>, I enjoy playing video games, watching tv shows and 
             movies, and working on my cars. Also, I enjoy spending time with my family and friends the most. On top of this, I 
-            enjoy <span className="underline">learning new things</span>. Curretnly, I am trying to re-learn Spanish with the 
-            idea of learning French next. 
-        </p>
+            enjoy <span className="underline">learning new things</span>. Currently, I am trying to re-learn Spanish with the 
+            idea of learning French next.
+      </p>
     </motion.section>
   );
 }
