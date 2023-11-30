@@ -100,5 +100,7 @@ export const skillsData = [
   ".NET Core",
   "Java",
   "Spring",
+  "Azure",
+  "AWS",
   "Git",
 ] as const;
