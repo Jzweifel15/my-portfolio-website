@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import DogCatImg from "@/public/dog-cat-recognition-img.png";
+import ChatbotImg from "@/public/pandorabots-img.png";
+import FitnessTrackerImg from "@/public/fitness-tracker-img.png";
+import TopspeedImg from "@/public/topSpeed-img.png";
 
 export const links = [
   {
@@ -63,28 +64,28 @@ export const projectsData = [
     description:
       "An image recognition program that allows users to submit a photo of a dog or a cat, and the ML model will predict what it is.",
     tags: ["Python", "Tensorflow", "AI/ML", "Neural Networks"],
-    imageUrl: corpcommentImg,
+    imageUrl: DogCatImg,
   },
   {
     title: "Career Chatbot",
     description:
       "A chatbot that asks a series of questions to determine a sufficient computing job based on a user's given answer choices.",
     tags: ["Pandorabots", "AIML", "Supervised Learning"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "TSP Shortest Path",
-    description:
-      "A program that uses the Nearest Neighbor algorithm to determine the shortest path from one node to another based on a set of requirements.",
-    tags: ["Python", "Nearest Neighbor", "Algorithms", "Data Structures", "Traveling Salesman Problem"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: ChatbotImg,
   },
   {
     title: "Fitness Tracker",
     description:
       "A full-stack web application for the gym junkies that allows for tracking workout and meal schedules, as well as traking your BMI.",
     tags: ["React/Redux", "Ruby on Rails", "SQLite", "Graph.js"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: FitnessTrackerImg,
+  },
+  {
+    title: "Top Speed",
+    description:
+      "A Single-page web app (SPA) that allows a user to search for their favorite cars and add them to their \"garage\".",
+    tags: ["HTML5/CSS3", "Vanilla JS", "Ruby on Rails", "SQLite", "SPA"],
+    imageUrl: TopspeedImg,
   },
 ] as const;
 
@@ -97,17 +98,15 @@ export const skillsData = [
   "Next.js",
   "Tailwind",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "PostgreSQL",
   "MS SQL Server",
   "MongoDB",
   "Python",
+  "Ruby",
+  "Ruby on Rails",
+  "Java",
   "C#",
   ".NET Core",
-  "Java",
-  "Spring",
-  "Azure",
-  "AWS",
   "Git",
+  "Cloud",
 ] as const;
