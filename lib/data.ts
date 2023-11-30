@@ -32,30 +32,39 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "IT Support Technician II",
-    location: "Etna, OH",
+    title: "Eastland-Fairfield Technical Schools Student",
+    location: "Groveport, OH",
     description:
-      "I have worked in IT for Amazon full-time as I was going through college and full-stack software engineer training. " +
-      "Now, with my degree and skills, I am looking for full-time software development engineer opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2019 - present",
+      "I attended the Eastland-Fairfield Career Technical Schools my last two years of high school and graduated from the " +
+      "Programming and Software Development program. This is where journey to code and build programs began.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2016 - 2018",
   },
   {
     title: "Full-stack Software Engineering Trainee",
     location: "Remote",
     description:
-      "I trained as a full-stack software engineer trainee at Flatiron Schools.",
-    icon: React.createElement(CgWorkAlt),
+      "I went through rigorous training from Flatiron Schools to learn how to develop and deploy full-stack web applications.",
+    icon: React.createElement(FaReact),
     date: "2020 - 2021",
   },
   {
-    title: "Graduated College",
+    title: "Western Governors University Student",
     location: "Columbus, OH",
     description:
-      "I graduated from Western Governors University with a bachelor's degree in Computer Science.",
+      "I attended and graduated from Western Governors University with a bachelor's degree in Computer Science.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023",
-  }
+    date: "2021 - 2023",
+  },
+  {
+    title: "IT Support Technician II",
+    location: "Etna, OH",
+    description:
+      "I have worked in IT for Amazon full-time as I was going through college and full-stack software engineer training. " +
+      "Now, with my degree and skills, I am looking for full-time software development engineer opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Present",
+  },
 ] as const;
 
 export const projectsData = [
