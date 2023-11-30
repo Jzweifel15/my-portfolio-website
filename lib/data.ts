@@ -59,24 +59,31 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Dog-Cat Image Recognition",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "An image recognition program that allows users to submit a photo of a dog or a cat, and the ML model will predict what it is.",
+    tags: ["Python", "Tensorflow", "AI/ML", "Neural Networks"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Career Chatbot",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A chatbot that asks a series of questions to determine a sufficient computing job based on a user's given answer choices.",
+    tags: ["Pandorabots", "AIML", "Supervised Learning"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "TSP Shortest Path",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A program that uses the Nearest Neighbor algorithm to determine the shortest path from one node to another based on a set of requirements.",
+    tags: ["Python", "Nearest Neighbor", "Algorithms", "Data Structures", "Traveling Salesman Problem"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Fitness Tracker",
+    description:
+      "A full-stack web application for the gym junkies that allows for tracking workout and meal schedules, as well as traking your BMI.",
+    tags: ["React/Redux", "Ruby on Rails", "SQLite", "Graph.js"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
